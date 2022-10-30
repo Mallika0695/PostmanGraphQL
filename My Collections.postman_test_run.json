@@ -1,0 +1,188 @@
+{
+	"id": "9afd6b8d-19e9-46b6-9c2c-0d64475b020b",
+	"name": "My Collections",
+	"timestamp": "2022-10-28T12:09:12.966Z",
+	"collection_id": "10590074-3c36efae-1a5c-4ae8-9da0-3a5de8108ac7",
+	"folder_id": 0,
+	"environment_id": "10590074-b6f9f8ac-b780-4d3e-bb14-7fdb254a26b5",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a694bf29-f292-4054-8d7b-54923d0f41f0",
+			"name": "GetUsers",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 262,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Verify status code should be 200": true,
+				"Verify email": true,
+				"per pages of JSON": true,
+				"totoal number of pages": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"per pages of JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"totoal number of pages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				262
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Verify status code should be 200": true,
+					"Verify email": true,
+					"per pages of JSON": true,
+					"totoal number of pages": true
+				}
+			]
+		},
+		{
+			"id": "e9e3efc5-8744-4118-a60f-6e83d1abdd95",
+			"name": "UpdateUsers",
+			"url": "https://reqres.in/api/users/2",
+			"time": 491,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify company": true
+			},
+			"testPassFailCounts": {
+				"Verify company": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				491
+			],
+			"allTests": [
+				{
+					"Verify company": true
+				}
+			]
+		},
+		{
+			"id": "0d5749bc-8e95-4528-b744-41deaffefcd1",
+			"name": "CreateUsers",
+			"url": "https://reqres.in/api/users",
+			"time": 531,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				531
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "3e7cf3c3-f733-4451-857f-77d6bd8580c6",
+			"name": "PatchUsers",
+			"url": "https://reqres.in/api/users/2",
+			"time": 408,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				408
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b3e8235f-604a-4a38-ba88-8bf416c7074f",
+			"name": "DeleteUsers",
+			"url": "https://reqres.in/api/users/2",
+			"time": 439,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				439
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2131,
+	"collection": {
+		"requests": [
+			{
+				"id": "a694bf29-f292-4054-8d7b-54923d0f41f0",
+				"method": "GET"
+			},
+			{
+				"id": "e9e3efc5-8744-4118-a60f-6e83d1abdd95",
+				"method": "PUT"
+			},
+			{
+				"id": "0d5749bc-8e95-4528-b744-41deaffefcd1",
+				"method": "POST"
+			},
+			{
+				"id": "3e7cf3c3-f733-4451-857f-77d6bd8580c6",
+				"method": "PATCH"
+			},
+			{
+				"id": "b3e8235f-604a-4a38-ba88-8bf416c7074f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
